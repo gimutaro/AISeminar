@@ -435,10 +435,18 @@ export default function Home() {
                 
                 <p style={{ marginBottom: '8px' }}><strong>▪️対策</strong></p>
                 <div style={{ marginLeft: '0' }}>
-                  <p style={{ margin: '0 0 16px 0' }}>・とにかく<span style={{ position: 'relative', display: 'inline-block', cursor: 'pointer', margin: '0 1px' }}>
+                  <p style={{ margin: '0 0 16px 0' }}>・とにかく<span style={{ position: 'relative', display: 'inline-block', cursor: 'pointer', margin: '0 1px' }} onClick={(e) => {
+                      const redSheet = e.currentTarget.querySelector('.red-sheet') as HTMLElement;
+                      if (redSheet) {
+                        redSheet.style.display = redSheet.style.display === 'none' ? 'block' : 'none';
+                      }
+                    }}>
                       <span style={{ color: '#ff0000', fontWeight: '900', fontFamily: 'Zen Kurenaido, sans-serif', letterSpacing: '0.5px', textShadow: '0 0 1px rgba(255,0,0,0.3)', position: 'relative' }}>
                         Gemini
                         <span style={{ position: 'absolute', bottom: '-3px', left: '0', right: '0', height: '2px', background: '#ff0000', opacity: '0.6', borderRadius: '1px' }}></span>
+                      </span>
+                      <span className="red-sheet" style={{ position: 'absolute', top: '-3px', left: '-4px', right: '-4px', bottom: '-3px', background: 'linear-gradient(135deg, rgba(255, 0, 0, 0.88) 0%, rgba(220, 0, 0, 0.88) 50%, rgba(200, 0, 0, 0.88) 100%)', borderRadius: '2px', boxShadow: '0 1px 4px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.15), inset 0 -1px 0 rgba(0,0,0,0.2)', display: 'block', zIndex: 1, backdropFilter: 'blur(2px)' }}>
+                        <span style={{ position: 'absolute', top: '50%', left: '45%', transform: 'translate(-50%, -50%)', color: 'rgba(255,255,255,0.6)', fontSize: '7px', fontWeight: 'normal', letterSpacing: '0.5px' }}>tap</span>
                       </span>
                     </span>(会社使用公認のAI)を使う<br />
                     <span style={{ paddingLeft: '20px' }}>→エンタープライズプランに入っており、セキュリティおよびプライバシー保護が適用されている</span></p>
