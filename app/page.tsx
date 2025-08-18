@@ -187,7 +187,7 @@ export default function Home() {
                 <p style={{ margin: '0 0 4px 0' }}><strong>・Puma</strong><br />
                 <span style={{ paddingLeft: '15px' }}>コンセプト開発から脚本、映像制作まで</span><br />
                 <span style={{ paddingLeft: '15px' }}>全てAIで制作。</span></p>
-                <p style={{ margin: '0 0 16px 0', paddingLeft: '15px' }}><strong>URL:</strong> <a href="https://thecrankycreative.com/ad-review-pumas-worlds-first-fully-ai-generated-ad/" target="_blank" style={{ color: '#333', textDecoration: 'none', background: 'linear-gradient(transparent 60%, #ffeb3b 60%, #ffeb3b 90%, transparent 90%)', padding: '0 2px', fontWeight: 'bold' }}>ニュース記事</a></p>
+                <p style={{ margin: '0 0 16px 0', paddingLeft: '15px' }}><strong>URL:</strong> <a href="https://www.youtube.com/shorts/4EJ4vpbhtYw" target="_blank" style={{ color: '#333', textDecoration: 'none', background: 'linear-gradient(transparent 60%, #ffeb3b 60%, #ffeb3b 90%, transparent 90%)', padding: '0 2px', fontWeight: 'bold' }}>動画</a></p>
                 
                 <p style={{ margin: '0 0 4px 0' }}><strong>・Baidu</strong><br />
                 <span style={{ paddingLeft: '15px' }}>AIアバターが6時間の配信で133商品をPR、</span><br />
