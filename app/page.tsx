@@ -114,7 +114,7 @@ export default function Home() {
                 
                 <p style={{ marginBottom: '8px' }}><strong>▪️詳細:</strong></p>
                 <div style={{ marginLeft: '0' }}>
-                  <p style={{ margin: '0 0 4px 0', paddingLeft: '15px', textIndent: '-15px' }}>・AIアートコンテスト グランプリ作品</p>
+                  <p style={{ margin: '0 0 4px 0', paddingLeft: '15px', textIndent: '-15px' }}>・AIアートコンテスト グランプリ</p>
                   <p style={{ margin: '0 0 4px 0', paddingLeft: '15px', textIndent: '-15px' }}>・Claude機能紹介動画(公式)でゲームが紹介される</p>
                   <p style={{ margin: '0 0 4px 0', paddingLeft: '15px', textIndent: '-15px' }}>・非エンジニア向けAIプログラミング講座で登壇</p>
                   <p style={{ margin: '0 0 8px 0', paddingLeft: '15px', textIndent: '-15px' }}>・ゲーム会社にてAI活用のアドバイザー(不定期)</p>
