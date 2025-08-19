@@ -685,7 +685,7 @@ export default function Home() {
                     <h4 style={{ margin: '0 0 8px 0', fontSize: '14px', fontWeight: 'bold', color: '#2d3748', fontFamily: 'Comic Sans MS, cursive' }}>⚡ プロトタイプ作成</h4>
                     <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#4a5568', lineHeight: '1.4' }}>施策のプロトタイプを作る</p>
                     <div style={{ fontSize: '11px' }}>
-                      <p style={{ margin: '0 0 3px 0' }}><strong>URL:</strong> <a href="https://claude.ai/public/artifacts/c3dff835-dc73-4d2d-b179-e1cd7334f714" target="_blank" style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: 'bold' }}>サイトのクローン</a></p>
+                      <p style={{ margin: '0 0 3px 0' }}><strong>URL:</strong> <a href="https://g.co/gemini/share/4e6c3e4533d8" target="_blank" style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: 'bold' }}>サイトのクローン</a></p>
                       <p style={{ margin: '0' }}><strong>URL:</strong> <a href="https://claude.ai/public/artifacts/e2d240a9-e38a-4def-9d40-b54b1d7eb45f" target="_blank" style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: 'bold' }}>LINE診断コンテンツ</a></p>
                     </div>
                   </div>
